@@ -1,0 +1,47 @@
+body { margin: 0; background: #1a1a1a; font-family: 'Inter', sans-serif; color: white; }
+
+/* Dashboard for Rural Citizens [cite: 80] */
+#app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background: #2e3b28; /* Forest Green for Rural Focus [cite: 40] */
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid #4CAF50;
+}
+
+#map { flex-grow: 1; width: 100%; }
+
+/* Optimized for Mid-range Phones [cite: 55, 121] */
+.nav-panel {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(34, 34, 34, 0.95);
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-sizing: border-box;
+}
+
+.status-bar {
+    font-size: 12px;
+    color: #4CAF50;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+button {
+    width: 100%;
+    padding: 16px;
+    background: #4CAF50;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
